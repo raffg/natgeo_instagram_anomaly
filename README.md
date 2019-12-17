@@ -20,15 +20,15 @@ Let n<sub>A</sub> and n<sub>B</sub> represent the sizes of group A and B, respec
 
 The **t test statistic value** to test whether the means are different can be calculated as follows:
 
-![t-test statistic value](https://latex.codecogs.com/gif.download?t%20%3D%20%5Cfrac%7Bm_A%20-%20m_B%7D%7B%5Csqrt%7B%20%5Cfrac%7BS%5E2%7D%7Bn_A%7D%20+%20%5Cfrac%7BS%5E2%7D%7Bn_B%7D%20%7D%7D)
+![t-test statistic value](images/t-test.gif)
 
 S<sup>2</sup> is an estimator of the common **variance** of the two samples. It can be calculated as follows:
 
-![S squared](https://latex.codecogs.com/gif.download?S%5E2%20%3D%20%5Cfrac%7B%5Csum%7B%28x-m_A%29%5E2%7D+%5Csum%7B%28x-m_B%29%5E2%7D%7D%7Bn_A+n_B-2%7D)
+![S squared](images/s_squared.gif)
 
 The **t-test statistic value** is used in a **[t-test table](https://www.sjsu.edu/faculty/gerstman/StatPrimer/t-table.pdf)** to look up the **critical value of Student’s t distribution** corresponding to the **significance level alpha** of your choice (often chosen as 5%). The **degrees of freedom** (df) used in this test is:
 
-![df](https://latex.codecogs.com/gif.download?df%20%3D%20n_A%20+%20n_B%20-%202)
+![df](images/df.gif)
 
 If the absolute value of the **t-test statistic** (|t|) is greater than the critical value, then the difference is significant. Otherwise the difference cannot be considered significant. The **level of significance** or (**p-value**) corresponds to the risk indicated by the **[t-test table](https://www.sjsu.edu/faculty/gerstman/StatPrimer/t-table.pdf)** for the calculated |t| value.
 The test can be used only when the two groups of samples (A and B) being compared follow bivariate **normal distribution** with equal **variances**.
