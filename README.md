@@ -2,7 +2,7 @@
 
 In August 2016, the [@NatGeo](https://www.instagram.com/natgeo) Instagram account experienced a spike in the number of likes per photo:
 ![likes over time](images/august.png)
-In September, the following month, National Geographic published the book [@NatGeo: The Most Popular Instagram Photos](https://www.amazon.com/NatGeo-Most-Popular-Instagram-Photos/dp/1426217102). It appears that there was some promotional activity going on during the leadup to the book's release that drove additional traffic to the @NatGeo account (at least, this is the only explanation I can find through my research). However, I wanted to run a statstitical test to see what would the probability be that this spike occurred by sheer random chance.
+In September, the following month, National Geographic published the book [@NatGeo: The Most Popular Instagram Photos](https://www.amazon.com/NatGeo-Most-Popular-Instagram-Photos/dp/1426217102). It appears that there was some promotional activity going on during the leadup to the book's release that drove additional traffic to the @NatGeo account (at least, this is the only explanation I can find through my research). However, I wanted to run a statistical test to see what would the probability be that this spike occurred by sheer random chance.
 
 Because during a short time period around this anomaly the account has basically constant average likes per photo, I decided to treat each post as an independent event. This allows me to use the t-test to compare the means of two distributions: the August posts and the non-August posts. I separated all posts during the 31 days of August into one bucket of data and the final two weeks of July along with the first two weeks of September for another bucket.
 ![August 2016](images/august2.png)
